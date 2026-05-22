@@ -1,0 +1,46 @@
+{
+  "name": "Générateur d'Idées de Cadeaux Personnalisés",
+  "description": "Trouvez l'idée cadeau parfaite pour chaque proche et chaque événement. Ce générateur propose des suggestions uniques basées sur les centres d'intérêt et le budget. Idéal pour les fêtes et toutes les occasions !",
+  "theme": "generator",
+  "design_theme": "playful-modular",
+  "structure_preset": "story-commerce",
+  "render_direction": "signal-bento",
+  "page_blueprint": "magazine-fold",
+  "language": "fr",
+  "country": "FR",
+  "url": null,
+  "expected_url": "https://generateur-d-idees-de-cadeaux-personnalises-3.onrender.com",
+  "created": "2026-05-22T03:25:50.320315+00:00",
+  "owner_user_id": "user-1774822953462",
+  "owner_username": "admin",
+  "owner_display_name": "Administrator",
+  "provider_space_id": "provider-space",
+  "provider_space_name": "Provider space",
+  "status": "generated",
+  "run_id": "run-1779420140546",
+  "external_site_request_id": null,
+  "external_client_ref": null,
+  "external_source_label": null,
+  "source_type": "generated",
+  "publish_target": "render",
+  "mode": "production",
+  "github": {
+    "status": "pending"
+  },
+  "deployment": {
+    "status": "pending"
+  },
+  "qa": {
+    "status": "pending"
+  },
+  "features": [
+    "Hero pattern: poster",
+    "Proof module: steps",
+    "Design theme: Playful Modular",
+    "Render direction: Signal Bento",
+    "Page blueprint: Magazine Fold",
+    "Runtime mode: profile_generator",
+    "Generation mode: direct_html",
+    "Artifact rendered, awaiting QA and deployment"
+  ]
+}
