@@ -8,7 +8,7 @@
   "page_blueprint": "magazine-fold",
   "language": "fr",
   "country": "FR",
-  "url": null,
+  "url": "https://generateur-d-idees-de-cadeaux.onrender.com",
   "expected_url": "https://generateur-d-idees-de-cadeaux-personnalises-3.onrender.com",
   "created": "2026-05-22T03:25:50.320315+00:00",
   "owner_user_id": "user-1774822953462",
@@ -16,7 +16,7 @@
   "owner_display_name": "Administrator",
   "provider_space_id": "provider-space",
   "provider_space_name": "Provider space",
-  "status": "failed",
+  "status": "ready",
   "run_id": "run-1779420140546",
   "external_site_request_id": null,
   "external_client_ref": null,
@@ -25,31 +25,58 @@
   "publish_target": "render",
   "mode": "production",
   "github": {
-    "status": "pending"
+    "status": "published",
+    "repo_name": "generateur-d-idees-de-cadeaux-personnalises-3",
+    "repo_url": "https://github.com/usonaf/generateur-d-idees-de-cadeaux-personnalises-3",
+    "updated_at": 1779467060
   },
   "deployment": {
-    "status": "failed"
+    "status": "ready",
+    "provider": "render",
+    "service_id": "srv-d8887aa8qa3s73f2eru0",
+    "project_name": "generateur-d-idees-de-cadeaux-personnalises-3",
+    "requested_project_name": null,
+    "deployment_id": "dep-d8887aq8qa3s73f2es50",
+    "deployment_url": "https://generateur-d-idees-de-cadeaux.onrender.com",
+    "public_url": "https://generateur-d-idees-de-cadeaux.onrender.com",
+    "expected_public_url": "https://generateur-d-idees-de-cadeaux.onrender.com",
+    "dashboard_url": "https://dashboard.render.com/static/srv-d8887aa8qa3s73f2eru0",
+    "ready_state": "live",
+    "target": "production",
+    "updated_at": 1779467096
   },
   "qa": {
-    "status": "fail",
-    "detail": "desktop: desktop browser run failed: Command '['/usr/bin/google-chrome', '--headless=new', '--disable-gpu', '--no-sandbox', '--disable-dev-shm-usage', '--user-data-dir=/tmp/uss-browser-94ugqpwi', '--hide-scrollbars', '--allow-file-access-from-files', '--window-size=1440,960', '--virtual-time-budget=6500', '--dump-dom', 'http://127.0.0.1:40879/index.html?__qa=functional&__qa_viewport=desktop']' timed out after 45 seconds | mobile: mobile browser run failed: Command '['/usr/bin/google-chrome', '--headless=new', '--disable-gpu', '--no-sandbox', '--disable-dev-shm-usage', '--user-data-dir=/tmp/uss-browser-bvj0xjsj', '--hide-scrollbars', '--allow-file-access-from-files', '--window-size=430,932', '--virtual-time-budget=6500', '--dump-dom', 'http://127.0.0.1:40879/index.html?__qa=functional&__qa_viewport=mobile']' timed out after 45 seconds",
-    "target_url": "http://127.0.0.1:40879/index.html?__qa=functional",
-    "mode": null,
-    "headline": null,
-    "primary_url": null,
+    "status": "pass",
+    "detail": "desktop: Le formulaire natif a mis a jour la zone de resultat. | mobile: Le formulaire natif a mis a jour la zone de resultat.",
+    "target_url": "http://127.0.0.1:37085/index.html?__qa=functional",
+    "mode": "native-form",
+    "headline": "Vos Idées Cadeaux Sur Mesure :",
+    "primary_url": "https://www.cultura.com/livres.html",
     "desktop": {
-      "status": "fail",
-      "detail": "desktop browser run failed: Command '['/usr/bin/google-chrome', '--headless=new', '--disable-gpu', '--no-sandbox', '--disable-dev-shm-usage', '--user-data-dir=/tmp/uss-browser-94ugqpwi', '--hide-scrollbars', '--allow-file-access-from-files', '--window-size=1440,960', '--virtual-time-budget=6500', '--dump-dom', 'http://127.0.0.1:40879/index.html?__qa=functional&__qa_viewport=desktop']' timed out after 45 seconds",
-      "target_url": "http://127.0.0.1:40879/index.html?__qa=functional",
-      "viewport": "desktop"
+      "status": "pass",
+      "detail": "Le formulaire natif a mis a jour la zone de resultat.",
+      "target_url": "http://127.0.0.1:37085/index.html?__qa=functional",
+      "viewport": "desktop",
+      "mode": "native-form",
+      "headline": "Vos Idées Cadeaux Sur Mesure :",
+      "primary_url": "https://www.cultura.com/livres.html",
+      "reported_viewport": "desktop",
+      "attempt": 2,
+      "updated_at": 1779467050
     },
     "mobile": {
-      "status": "fail",
-      "detail": "mobile browser run failed: Command '['/usr/bin/google-chrome', '--headless=new', '--disable-gpu', '--no-sandbox', '--disable-dev-shm-usage', '--user-data-dir=/tmp/uss-browser-bvj0xjsj', '--hide-scrollbars', '--allow-file-access-from-files', '--window-size=430,932', '--virtual-time-budget=6500', '--dump-dom', 'http://127.0.0.1:40879/index.html?__qa=functional&__qa_viewport=mobile']' timed out after 45 seconds",
-      "target_url": "http://127.0.0.1:40879/index.html?__qa=functional",
-      "viewport": "mobile"
+      "status": "pass",
+      "detail": "Le formulaire natif a mis a jour la zone de resultat.",
+      "target_url": "http://127.0.0.1:37085/index.html?__qa=functional",
+      "viewport": "mobile",
+      "mode": "native-form",
+      "headline": "Vos Idées Cadeaux Sur Mesure :",
+      "primary_url": "https://www.cultura.com/livres.html",
+      "reported_viewport": "mobile",
+      "attempt": 1,
+      "updated_at": 1779467051
     },
-    "updated_at": 1779466802
+    "updated_at": 1779467051
   },
   "features": [
     "Hero pattern: poster",
@@ -60,7 +87,5 @@
     "Runtime mode: profile_generator",
     "Generation mode: direct_html",
     "Artifact rendered, awaiting QA and deployment"
-  ],
-  "failure_reason": "desktop: desktop browser run failed: Command '['/usr/bin/google-chrome', '--headless=new', '--disable-gpu', '--no-sandbox', '--disable-dev-shm-usage', '--user-data-dir=/tmp/uss-browser-94ugqpwi', '--hide-scrollbars', '--allow-file-access-from-files', '--window-size=1440,960', '--virtual-time-budget=6500', '--dump-dom', 'http://127.0.0.1:40879/index.html?__qa=functional&__qa_viewport=desktop']' timed out after 45 seconds | mobile: mobile browser run failed: Command '['/usr/bin/google-chrome', '--headless=new', '--disable-gpu', '--no-sandbox', '--disable-dev-shm-usage', '--user-data-dir=/tmp/uss-browser-bvj0xjsj', '--hide-scrollbars', '--allow-file-access-from-files', '--window-size=430,932', '--virtual-time-budget=6500', '--dump-dom', 'http://127.0.0.1:40879/index.html?__qa=functional&__qa_viewport=mobile']' timed out after 45 seconds",
-  "failed_at": 1779466802
+  ]
 }
