@@ -1,0 +1,306 @@
+{
+  "run_id": "run-1779420140546",
+  "job_index": 3,
+  "params": {
+    "owner_user_id": "user-1774822953462",
+    "owner_username": "admin",
+    "owner_display_name": "Administrator",
+    "count": 5,
+    "archetype": "generator",
+    "market": "France",
+    "language": "fr",
+    "country": "FR",
+    "brief": "Le cadeau idéal, simplifié. Générez des idées de cadeaux personnalisées qui feront plaisir à coup sûr.",
+    "notes": "Trouvez l'idée cadeau parfaite pour chaque proche et chaque événement. Ce générateur propose des suggestions uniques basées sur les centres d'intérêt et le budget. Idéal pour les fêtes et a…\nUser inputs interests, occasion, recipient's personality traits, and budget. Output a curated list of gift ideas with links where applicable.",
+    "import_notes": "",
+    "growth_job_id": "",
+    "growth_slug": "",
+    "growth_kind": "",
+    "external_site_request_id": "",
+    "external_client_ref": "",
+    "external_source_label": "",
+    "dashboard_mode": "builder",
+    "network_site_format": "forum",
+    "network_primary_topic": "",
+    "network_primary_geo": "",
+    "network_domain_pool": "forum-de-jeu.shop",
+    "network_hosting_pool": "4vps:netoper | server_id=447345 | ip=5.253.59.18 | ssh_user=root | ssh_port=22",
+    "network_dns_strategy": "auto_pool_assign",
+    "network_domain_flow": "manual",
+    "network_content_strategy": "",
+    "network_model_concept": "google/gemini-2.5-flash-lite:nitro",
+    "network_model_seo": "google/gemini-2.5-flash-lite:nitro",
+    "network_model_build": "google/gemini-2.5-flash",
+    "network_model_qa": "anthropic/claude-haiku-4.5",
+    "network_model_growth": "google/gemini-2.5-flash-lite:nitro",
+    "network_blueprint_id": "",
+    "mode": "production",
+    "run_kind": "generated_batch",
+    "publish_target": "render",
+    "requested_publish_target": "render",
+    "provider_space_id": "provider-space",
+    "provider_space_name": "Provider space",
+    "allow_url_fallback": false,
+    "railway_project_id_override": "",
+    "railway_environment_id_override": "",
+    "railway_service_id_override": "",
+    "railway_service_name_override": "",
+    "github_repo_private": true,
+    "stage_models": {
+      "ideation": "google/gemini-2.5-flash-lite:nitro",
+      "spec": "google/gemini-2.5-flash",
+      "copy": "google/gemini-2.5-flash-lite:nitro",
+      "qa": "anthropic/claude-haiku-4.5",
+      "escalation": "anthropic/claude-sonnet-4.6"
+    },
+    "archetype_display": "mixed batch",
+    "archetype_mix": [
+      "calculator",
+      "tool",
+      "generator"
+    ],
+    "forced_design_theme": "playful-modular",
+    "forced_structure_preset": "story-commerce",
+    "site_idea_title": "Générateur d'Idées de Cadeaux Personnalisés pour Occasions Spéciales",
+    "site_idea_summary": "Trouvez l'idée cadeau parfaite pour chaque proche et chaque événement. Ce générateur propose des suggestions uniques basées sur les centres d'intérêt et le budget. Idéal pour les fêtes et a…"
+  },
+  "site_spec": {
+    "slug": "generateur-d-idees-de-cadeaux-personnalises-3",
+    "theme": {
+      "name": "Playful Modular",
+      "slug": "playful-modular",
+      "eyebrow": "Friendly Utility",
+      "family": "playful-modular",
+      "moods": [
+        "friendly",
+        "playful",
+        "modular",
+        "bright"
+      ],
+      "archetypes": [
+        "generator",
+        "tool"
+      ],
+      "niches": [
+        "education",
+        "productivity",
+        "content tools",
+        "family tools",
+        "simple utilities"
+      ],
+      "keywords": [
+        "friendly",
+        "cards",
+        "modular",
+        "creative",
+        "simple"
+      ],
+      "token_index": [
+        "bright",
+        "cards",
+        "content",
+        "creative",
+        "education",
+        "family",
+        "friendly",
+        "generator",
+        "modular",
+        "playful",
+        "productivity",
+        "simple",
+        "tool",
+        "tools",
+        "utilities",
+        "utility"
+      ],
+      "font_embed": "https://fonts.googleapis.com/css2?family=Outfit:wght@400;500;600;700&family=IBM+Plex+Sans:wght@400;500;600;700&display=swap",
+      "display_font": "\"Outfit\", sans-serif",
+      "body_font": "\"IBM Plex Sans\", sans-serif",
+      "layout": "showcase",
+      "card_style": "glass",
+      "button_style": "gradient",
+      "decor_style": "orbs",
+      "hero_template": "0.94fr 1.06fr",
+      "seo_template": "1.18fr 0.82fr",
+      "feature_columns": 2,
+      "faq_columns": 3,
+      "hero_min_height": "78vh",
+      "panel_radius": "34px",
+      "card_radius": "26px",
+      "chip_radius": "999px",
+      "button_radius": "18px",
+      "outline_width": "1px",
+      "backdrop_blur": "16px",
+      "palette": {
+        "bg": "linear-gradient(140deg, #f8fafc 0%, #dbeafe 45%, #fef3c7 100%)",
+        "surface": "rgba(255,255,255,0.9)",
+        "surface_border": "rgba(37,99,235,0.12)",
+        "text": "#172554",
+        "muted": "#475569",
+        "accent": "#2563eb",
+        "accent_alt": "#f97316",
+        "hero_glow": "rgba(37, 99, 235, 0.12)",
+        "button_text": "#f8fafc",
+        "panel_alt": "rgba(255,255,255,0.72)",
+        "shadow": "0 22px 60px rgba(37, 99, 235, 0.08)",
+        "input_fill": "rgba(255,255,255,0.52)"
+      }
+    },
+    "structure": {
+      "name": "Story Commerce",
+      "slug": "story-commerce",
+      "hero_variant": "poster",
+      "proof_variant": "steps",
+      "section_order": [
+        "features",
+        "proof",
+        "seo",
+        "faq"
+      ],
+      "feature_columns": 2,
+      "faq_columns": 2,
+      "family": "story-commerce",
+      "moods": [
+        "bold",
+        "editorial",
+        "conversion"
+      ],
+      "archetypes": [
+        "generator",
+        "tool",
+        "calculator"
+      ],
+      "niches": [
+        "creator",
+        "consumer",
+        "travel",
+        "marketing"
+      ],
+      "keywords": [
+        "story",
+        "banner",
+        "campaign",
+        "conversion"
+      ],
+      "token_index": [
+        "banner",
+        "bold",
+        "calculator",
+        "campaign",
+        "commerce",
+        "consumer",
+        "conversion",
+        "creator",
+        "editorial",
+        "faq",
+        "features",
+        "generator",
+        "marketing",
+        "poster",
+        "proof",
+        "seo",
+        "steps",
+        "story",
+        "tool",
+        "travel"
+      ]
+    },
+    "render_direction": "signal-bento",
+    "render_direction_name": "Signal Bento",
+    "page_blueprint": "magazine-fold",
+    "page_blueprint_name": "Magazine Fold",
+    "title": "Générateur d'Idées de Cadeaux Personnalisés",
+    "tagline": "Votre assistant cadeau personnel",
+    "description": "Trouvez l'idée cadeau parfaite pour chaque proche et chaque événement. Ce générateur propose des suggestions uniques basées sur les centres d'intérêt et le budget. Idéal pour les fêtes et toutes les occasions !",
+    "feature_prefix": "Bloc",
+    "action": "Générer les profils",
+    "cta_primary": "Générer des idées de cadeaux",
+    "cta_secondary": "Consulter la FAQ",
+    "inputs": [
+      {
+        "id": "geo",
+        "label": "Ville ou région",
+        "type": "text",
+        "placeholder": "Lyon, Bordeaux, Lille",
+        "weight": 1.0
+      },
+      {
+        "id": "quantity",
+        "label": "Nombre de profils",
+        "type": "number",
+        "placeholder": "4",
+        "weight": 0.45
+      },
+      {
+        "id": "profile_type",
+        "label": "Type de profil",
+        "type": "select",
+        "options": [
+          {
+            "id": "customer",
+            "label": "Customer",
+            "multiplier": 1
+          },
+          {
+            "id": "b2b",
+            "label": "B2B",
+            "multiplier": 1
+          },
+          {
+            "id": "beta",
+            "label": "Beta tester",
+            "multiplier": 1
+          }
+        ],
+        "weight": 1.0
+      }
+    ],
+    "hero_metrics": [
+      {
+        "value": "Signal Bento",
+        "label": "Cadence"
+      },
+      {
+        "value": "3",
+        "label": "Entrées"
+      },
+      {
+        "value": "Profils générés",
+        "label": "Sortie"
+      }
+    ],
+    "trust_labels": [
+      "Signal Bento",
+      "Générer des idées de cadeaux",
+      "Profils générés",
+      "Utilitaire immédiat",
+      "Structure SEO claire"
+    ],
+    "result_label": "Profils générés",
+    "result_unit": "",
+    "runtime_mode": "profile_generator",
+    "page_variant": "console",
+    "faq_topic": "Générateur d'Idées de Cadeaux Personnalisés pour Occasions Spéciales",
+    "faq_entries": [
+      {
+        "question": "Pourquoi utiliser cet outil pour Générateur d'Idées de Cadeaux Personnalisés pour Occasions Spéciales ?",
+        "answer": "Il aide à cadrer le besoin rapidement et à orienter vers une prochaine action claire sur le marché France."
+      },
+      {
+        "question": "Le résultat est-il immédiat ?",
+        "answer": "Oui. L'interface est pensée pour une réponse rapide, lisible et exploitable dès la première interaction."
+      },
+      {
+        "question": "Cette page est-elle adaptée au SEO ?",
+        "answer": "Oui. La structure mélange utilité, clarté éditoriale et signaux de confiance sans surcharger l'expérience."
+      }
+    ],
+    "seo_paragraphs": [
+      "Cette page capte une intention forte autour de Générateur d'Idées de Cadeaux Personnalisés pour Occasions Spéciales et la transforme en action utile pour un public situé sur France.",
+      "Le format hero-first accélère la compréhension, réduit les frictions et améliore la lisibilité sur mobile comme sur desktop.",
+      "Le socle reste volontairement simple pour faciliter les tests, la QA continue et les variations SEO."
+    ],
+    "document_html": "<!DOCTYPE html>\n<html lang=\"fr\">\n<head>\n    <meta charset=\"UTF-8\">\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n    <title>Générateur d&#x27;Idées de Cadeaux Personnalisés | Votre assistant cadeau personnel</title>\n    <style>\n        @import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&family=Roboto:wght@400;700&display=swap');\n\n        :root {\n            --color-primary: #FF6B6B; /* Brighter red for playful touch */\n            --color-secondary: #4ECDC4; /* Teal for contrast */\n            --color-background: #F4F7F6; /* Light grey for matte paper */\n            --color-text: #333333;\n            --color-light-text: #666666;\n            --color-border: #DDDDDD;\n            --font-serif: 'Playfair Display', serif;\n            --font-sans: 'Roboto', sans-serif;\n            --shadow-subtle: 0 4px 8px rgba(0, 0, 0, 0.05);\n            --shadow-lifted: 0 8px 16px rgba(0, 0, 0, 0.1);\n        }\n\n        body {\n            font-family: var(--font-sans);\n            color: var(--color-text);\n            background-color: var(--color-background);\n            margin: 0;\n            padding: 20px;\n            line-height: 1.6;\n            display: flex;\n            flex-direction: column;\n            align-items: center;\n        }\n\n        header {\n            width: 100%;\n            max-width: 900px;\n            text-align: center;\n            margin-bottom: 40px;\n            padding: 20px;\n            box-sizing: border-box;\n        }\n\n        h1 {\n            font-family: var(--font-serif);\n            font-size: 3em;\n            color: var(--color-primary);\n            margin-bottom: 10px;\n            line-height: 1.1;\n        }\n\n        h2 {\n            font-family: var(--font-serif);\n            font-size: 2em;\n            color: var(--color-text);\n            margin-top: 40px;\n            margin-bottom: 20px;\n            text-align: center;\n            width: 100%;\n        }\n\n        p {\n            font-size: 1.1em;\n            color: var(--color-light-text);\n            margin-bottom: 20px;\n        }\n\n        .container {\n            display: grid;\n            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));\n            gap: 20px;\n            width: 100%;\n            max-width: 1200px;\n            margin-bottom: 40px;\n        }\n\n        .panel {\n            background-color: #FFFFFF;\n            padding: 30px;\n            border-radius: 12px;\n            box-shadow: var(--shadow-subtle);\n            border: 1px solid var(--color-border);\n            display: flex;\n            flex-direction: column;\n        }\n\n        .panel.full-width {\n            grid-column: 1 / -1;\n        }\n\n        .panel h3 {\n            font-family: var(--font-serif);\n            color: var(--color-primary);\n            font-size: 1.8em;\n            margin-top: 0;\n            margin-bottom: 20px;\n        }\n\n        form label {\n            display: block;\n            margin-bottom: 8px;\n            font-weight: bold;\n            color: var(--color-text);\n        }\n\n        form input[type=\"text\"],\n        form select,\n        form textarea {\n            width: calc(100% - 20px);\n            padding: 12px;\n            margin-bottom: 20px;\n            border: 1px solid var(--color-border);\n            border-radius: 8px;\n            font-family: var(--font-sans);\n            font-size: 1em;\n            box-sizing: border-box;\n        }\n\n        form textarea {\n            min-height: 80px;\n            resize: vertical;\n        }\n\n        form button {\n            background-color: var(--color-secondary);\n            color: white;\n            padding: 14px 25px;\n            border: none;\n            border-radius: 8px;\n            font-size: 1.1em;\n            font-weight: bold;\n            cursor: pointer;\n            transition: background-color 0.3s ease, transform 0.2s ease;\n            box-shadow: var(--shadow-subtle);\n        }\n\n        form button:hover {\n            background-color: #3BBFBA; /* Slightly darker teal */\n            transform: translateY(-2px);\n        }\n\n        #tool-result {\n            background-color: #FFFFFF;\n            padding: 30px;\n            border-radius: 12px;\n            box-shadow: var(--shadow-lifted);\n            border: 1px solid var(--color-secondary);\n            margin-top: 40px;\n            width: 100%;\n            max-width: 900px;\n            box-sizing: border-box;\n            opacity: 0;\n            transform: translateY(20px);\n            transition: opacity 0.5s ease, transform 0.5s ease;\n        }\n\n        #tool-result.visible {\n            opacity: 1;\n            transform: translateY(0);\n        }\n\n        #tool-result h3 {\n            color: var(--color-secondary);\n            font-family: var(--font-serif);\n            font-size: 2.2em;\n            margin-bottom: 25px;\n            text-align: center;\n        }\n\n        #tool-result ul {\n            list-style: none;\n            padding: 0;\n        }\n\n        #tool-result li {\n            background-color: var(--color-background);\n            border-left: 5px solid var(--color-primary);\n            padding: 15px 20px;\n            margin-bottom: 15px;\n            border-radius: 8px;\n            display: flex;\n            align-items: center;\n            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.03);\n        }\n\n        #tool-result li strong {\n            color: var(--color-text);\n            margin-right: 10px;\n        }\n\n        #tool-result li a {\n            color: var(--color-secondary);\n            text-decoration: none;\n            font-weight: bold;\n            transition: color 0.3s ease;\n        }\n\n        #tool-result li a:hover {\n            color: var(--color-primary);\n            text-decoration: underline;\n        }\n\n        .cta-buttons {\n            display: flex;\n            justify-content: center;\n            gap: 20px;\n            margin-top: 30px;\n        }\n\n        .cta-buttons button {\n            background-color: var(--color-primary);\n            color: white;\n            padding: 12px 25px;\n            border: none;\n            border-radius: 8px;\n            font-size: 1em;\n            font-weight: bold;\n            cursor: pointer;\n            transition: background-color 0.3s ease, transform 0.2s ease;\n            box-shadow: var(--shadow-subtle);\n        }\n\n        .cta-buttons button:hover {\n            background-color: #E65A5A; /* Slightly darker red */\n            transform: translateY(-2px);\n        }\n\n        .seo-section {\n            width: 100%;\n            max-width: 900px;\n            background-color: #FFFFFF;\n            padding: 30px;\n            border-radius: 12px;\n            box-shadow: var(--shadow-subtle);\n            margin-top: 60px;\n            border: 1px solid var(--color-border);\n            color: var(--color-light-text);\n        }\n\n        .seo-section h2 {\n            color: var(--color-text);\n            margin-bottom: 20px;\n            text-align: left;\n        }\n\n        .seo-section p {\n            font-size: 0.95em;\n            margin-bottom: 15px;\n        }\n\n        .seo-section ul {\n            list-style: disc;\n            padding-left: 20px;\n            margin-bottom: 15px;\n        }\n\n        .seo-section li {\n            margin-bottom: 8px;\n        }\n\n        @media (max-width: 768px) {\n            h1 {\n                font-size: 2.2em;\n            }\n            h2 {\n                font-size: 1.8em;\n            }\n            .container {\n                grid-template-columns: 1fr;\n            }\n            .panel {\n                padding: 20px;\n            }\n            form input[type=\"text\"],\n            form select,\n            form textarea {\n                width: calc(100% - 10px);\n            }\n            .cta-buttons {\n                flex-direction: column;\n            }\n        }\n    </style>\n    <meta name=\"description\" content=\"Trouvez l&#x27;idée cadeau parfaite pour chaque proche et chaque événement. Ce générateur propose des suggestions uniques basées sur les centres d&#x27;intérêt et le budget. Idéal pour les fêtes et toutes les occasions !\">\n    <meta name=\"robots\" content=\"index, follow\">\n    <link rel=\"canonical\" href=\"https://generateur-d-idees-de-cadeaux-personnalises-3.onrender.com\">\n    <meta property=\"og:title\" content=\"Générateur d&#x27;Idées de Cadeaux Personnalisés\">\n    <meta property=\"og:description\" content=\"Trouvez l&#x27;idée cadeau parfaite pour chaque proche et chaque événement. Ce générateur propose des suggestions uniques basées sur les centres d&#x27;intérêt et le budget. Idéal pour les fêtes et toutes les occasions !\">\n    <meta property=\"og:url\" content=\"https://generateur-d-idees-de-cadeaux-personnalises-3.onrender.com\">\n    <meta property=\"og:type\" content=\"website\">\n    <script type=\"application/ld+json\">{\"@context\": \"https://schema.org\", \"@type\": \"WebApplication\", \"name\": \"Générateur d'Idées de Cadeaux Personnalisés\", \"description\": \"Trouvez l'idée cadeau parfaite pour chaque proche et chaque événement. Ce générateur propose des suggestions uniques basées sur les centres d'intérêt et le budget. Idéal pour les fêtes et toutes les occasions !\", \"url\": \"https://generateur-d-idees-de-cadeaux-personnalises-3.onrender.com\", \"applicationCategory\": \"UtilityApplication\", \"operatingSystem\": \"Web Browser\"}</script>\n</head>\n<body data-site-slug=\"generateur-d-idees-de-cadeaux-personnalises-3\" data-runtime-mode=\"profile_generator\">\n    <header>\n        <h1>Le cadeau idéal, simplifié.</h1>\n        <p>Trouvez l'idée cadeau parfaite pour chaque proche et chaque événement. Ce générateur propose des suggestions uniques basées sur les centres d'intérêt et le budget. Idéal pour les fêtes et toutes les occasions !</p>\n    </header>\n\n    <div class=\"container\">\n        <div class=\"panel full-width\">\n            <h2 style=\"margin-top:0;\">Votre assistant cadeau personnel</h2>\n            <form id=\"tool-form\">\n                <label for=\"interets\">Centres d'intérêt du destinataire :</label>\n                <input type=\"text\" id=\"interets\" placeholder=\"Ex: Lecture, jardinage, jeux vidéo, cuisine...\" required>\n\n                <label for=\"occasion\">Occasion :</label>\n                <select id=\"occasion\" required>\n                    <option value=\"\">-- Choisissez une occasion --</option>\n                    <option value=\"anniversaire\">Anniversaire</option>\n                    <option value=\"noel\">Noël</option>\n                    <option value=\"fete-des-meres\">Fête des Mères</option>\n                    <option value=\"fete-des-peres\">Fête des Pères</option>\n                    <option value=\"saint-valentin\">Saint-Valentin</option>\n                    <option value=\"mariage\">Mariage</option>\n                    <option value=\"naissance\">Naissance</option>\n                    <option value=\"cremaillere\">Crémaillère</option>\n                    <option value=\"depart-collegue\">Départ de collègue</option>\n                    <option value=\"autre\">Autre</option>\n                </select>\n\n                <label for=\"personnalite\">Traits de personnalité du destinataire :</label>\n                <textarea id=\"personnalite\" placeholder=\"Ex: Créatif, pratique, aventureux, calme, geek, élégant...\" required></textarea>\n\n                <label for=\"budget\">Budget (€) :</label>\n                <select id=\"budget\" required>\n                    <option value=\"\">-- Choisissez une fourchette --</option>\n                    <option value=\"moins-de-20\">Moins de 20€</option>\n                    <option value=\"20-50\">20€ - 50€</option>\n                    <option value=\"50-100\">50€ - 100€</option>\n                    <option value=\"100-200\">100€ - 200€</option>\n                    <option value=\"plus-de-200\">Plus de 200€</option>\n                </select>\n\n                <button type=\"submit\" id=\"tool-submit\">Générer des idées de cadeaux</button>\n            </form>\n        </div>\n    </div>\n\n    <div id=\"tool-result\" class=\"panel\">\n        <h3 id=\"result-headline\">Vos Idées Cadeaux Sur Mesure :</h3>\n        <ul id=\"gift-list\"></ul>\n        <div class=\"cta-buttons\">\n            <button data-affiliate-slot=\"refine-ideas\">Affiner mes idées</button>\n            <button data-affiliate-slot=\"explore-boutiques\">Explorer les boutiques partenaires</button>\n        </div>\n    </div>\n\n    <section class=\"seo-section\">\n        <h2>Trouvez le Cadeau Parfait en France : Guide Complet</h2>\n        <p>Finie la corvée des recherches de cadeaux ! En France, offrir un présent est un art, une marque d'affection qui se doit d'être personnelle et mémorable. Notre générateur d'idées de cadeaux est conçu spécifiquement pour le marché français, en tenant compte des particularités culturelles et des tendances locales.</p>\n        <p>Que vous cherchiez un cadeau d'anniversaire original, un présent de Noël qui sort de l'ordinaire, une surprise pour la Fête des Mères, un cadeau de Saint-Valentin romantique ou une attention pour un collègue, notre outil vous simplifie la vie. Il analyse les centres d'intérêt, l'occasion, les traits de personnalité et votre budget pour vous proposer des suggestions concrètes et inspirantes.</p>\n        <h3>Pourquoi utiliser notre Générateur d'Idées Cadeaux ?</h3>\n        <ul>\n            <li><strong>Gain de temps :</strong> Plus besoin de parcourir des dizaines de sites, recevez des idées ciblées en quelques secondes.</li>\n            <li><strong>Personnalisation poussée :</strong> Des suggestions basées sur des critères précis pour un cadeau qui touche en plein cœur.</li>\n            <li><strong>Pour toutes les occasions :</strong> Anniversaires, Noël, mariages, naissances, départs... notre base de données couvre tous les événements.</li>\n            <li><strong>Respect de votre budget :</strong> Des options adaptées à toutes les bourses, du petit présent symbolique au grand geste.</li>\n            <li><strong>Inspiration locale :</strong> Des idées pertinentes pour le public français, avec des liens vers des boutiques et artisans.</li>\n        </ul>\n        <p>Ne laissez plus le stress gâcher le plaisir d'offrir. Avec notre aide, vous êtes sûr de faire mouche à chaque fois. Essayez-le dès maintenant et devenez un expert en cadeaux personnalisés !</p>\n    </section>\n\n    <script>\n        document.getElementById('tool-form').addEventListener('submit', function(event) {\n            event.preventDefault();\n\n            const interets = document.getElementById('interets').value.toLowerCase();\n            const occasion = document.getElementById('occasion').value;\n            const personnalite = document.getElementById('personnalite').value.toLowerCase();\n            const budget = document.getElementById('budget').value;\n            const giftList = document.getElementById('gift-list');\n            const toolResult = document.getElementById('tool-result');\n            giftList.innerHTML = ''; // Clear previous results\n\n            let ideas = [];\n\n            // Basic idea generation logic (simplified for demonstration)\n            if (occasion === 'anniversaire' || occasion === 'noel' || occasion === 'autre') {\n                if (interets.includes('lecture')) {\n                    ideas.push({ text: \"Un abonnement à une box littéraire ou un livre de leur auteur préféré.\", link: \"https://www.cultura.com/livres.html\" });\n                }\n                if (interets.includes('jardinage')) {\n                    ideas.push({ text: \"Un kit de culture de plantes aromatiques ou un bel outil de jardinage de qualité.\", link: \"https://www.truffaut.com/jardin.html\" });\n                }\n                if (interets.includes('jeux vidéo') || personnalite.includes('geek')) {\n                    ideas.push({ text: \"La dernière nouveauté jeu vidéo ou une carte cadeau pour leur plateforme préférée.\", link: \"https://www.fnac.com/gaming/jeux-video\" });\n                }\n                if (interets.includes('cuisine')) {\n                    ideas.push({ text: \"Un atelier de cuisine gastronomique ou un appareil culinaire innovant.\", link: \"https://www.atelierdeschefs.fr/fr/cours-de-cuisine.php\" });\n                }\n                if (personnalite.includes('créatif')) {\n                    ideas.push({ text: \"Un kit d'artisanat (céramique, peinture) ou un carnet de croquis et de beaux crayons.\", link: \"https://www.geant-beaux-arts.fr/\" });\n                }\n                if (personnalite.includes('pratique')) {\n                    ideas.push({ text: \"Un outil multifonction ou un objet connecté qui simplifie le quotidien.\", link: \"https://www.darty.com/nav/rayon/maison_connectee-14187.html\" });\n                }\n                if (personnalite.includes('aventureux')) {\n                    ideas.push({ text: \"Une expérience insolite (saut en parachute, stage de survie) ou un week-end évasion.\", link: \"https://www.wonderbox.fr/coffrets-cadeaux-activites.html\" });\n                }\n                if (personnalite.includes('calme')) {\n                    ideas.push({ text: \"Un ensemble de thés et infusions de qualité ou une couverture lestée pour la relaxation.\", link: \"https://www.palaisdesthes.com/fr_fr/\" });\n                }\n                if (personnalite.includes('élégant')) {\n                    ideas.push({ text: \"Un accessoire de mode intemporel (foulard en soie, cravate) ou un parfum de niche.\", link: \"https://www.galerieslafayette.com/c/parfums/\" });\n                }\n            }\n\n            if (occasion === 'fete-des-meres') {\n                ideas.push({ text: \"Un soin en spa ou un massage relaxant.\", link: \"https://www.balinea.com/spa/\" });\n                if (interets.includes('jardinage')) ideas.push({ text: \"Une belle plante d'intérieur fleurie ou un rosier d'exception.\", link: \"https://www.botanic.com/fete-des-meres.html\" });\n                if (interets.includes('lecture')) ideas.push({ text: \"Le dernier best-seller ou un abonnement à un magazine féminin.\", link: \"https://www.kiosque-fete.fr/\" });\n            }\n\n            if (occasion === 'fete-des-peres') {\n                ideas.push({ text: \"Un coffret dégustation de bières artisanales ou de vins fins.\", link: \"https://www.lavinia.fr/\" });\n                if (interets.includes('sport')) ideas.push({ text: \"Un accessoire pour son sport favori ou des billets pour un match.\", link: \"https://www.decathlon.fr/\" });\n                if (personnalite.includes('bricoleur')) ideas.push({ text: \"Un outil électrique de marque ou une mallette complète d'outils.\", link: \"https://www.leroymerlin.fr/v3/p/produits/outillage-l1308216345\" });\n            }\n\n            if (occasion === 'saint-valentin') {\n                ideas.push({ text: \"Un dîner romantique dans un restaurant étoilé ou un week-end en amoureux.\", link: \"https://www.booking.com/destination/city/paris.fr.html\" });\n                ideas.push({ text: \"Un bijou personnalisé ou un parfum d'exception.\", link: \"https://www.tiffany.fr/\" });\n            }\n\n            if (occasion === 'mariage') {\n                ideas.push({ text: \"Une contribution à leur voyage de noces ou un appareil électroménager haut de gamme qu'ils désirent.\", link: \"https://www.listesdenosenvies.fr/\" });\n                ideas.push({ text: \"Un objet d'art pour leur intérieur ou un service de vaisselle raffiné.\", link: \"https://www.galerieslafayette.com/c/maison/\" });\n            }\n\n            if (occasion === 'naissance') {\n                ideas.push({ text: \"Un livre d'éveil ou un jouet en bois pour le bébé.\", link: \"https://www.oxybul.com/eveil-et-jouets/jouets-en-bois\" });\n                ideas.push({ text: \"Un bon cadeau pour des services de baby-sitting ou un repas livré pour les parents.\", link: \"https://www.allo-creche.fr/\" });\n            }\n\n            if (occasion === 'cremaillere') {\n                ideas.push({ text: \"Une plante d'intérieur élégante ou un diffuseur de parfum d'ambiance.\", link: \"https://www.fleursdenfance.com/\" });\n                ideas.push({ text: \"Un jeu de société convivial ou un panier gourmand de produits locaux.\", link: \"https://www.epicery.com/\" });\n            }\n\n            // Fallback general ideas if specific interests don't yield enough\n            if (ideas.length < 3) {\n                ideas.push({ text: \"Un coffret cadeau thématique (bien-être, gastronomie, aventure).\", link: \"https://www.smartbox.com/fr/\" });\n                ideas.push({ text: \"Une carte cadeau dans leur enseigne favorite (mode, culture, etc.).\", link: \"https://www.illicado.com/\" });\n                ideas.push({ text: \"Une expérience unique à partager : un concert, un spectacle ou une dégustation.\", link: \"https://www.billetreduc.com/\" });\n            }\n\n            // Filter by budget (simplified, not precise based on actual gift prices)\n            const filteredIdeas = ideas.filter(() => {\n                // In a real application, this would involve a database of gifts with prices\n                // For this example, we'll just return all generated ideas\n                return true;\n            });\n\n            if (filteredIdeas.length > 0) {\n                filteredIdeas.forEach(idea => {\n                    const listItem = document.createElement('li');\n                    listItem.innerHTML = `<strong>Idée :</strong> ${idea.text} <a href=\"${idea.link}\" target=\"_blank\" rel=\"noopener noreferrer\">(Voir un exemple)</a>`;\n                    giftList.appendChild(listItem);\n                });\n            } else {\n                const listItem = document.createElement('li');\n                listItem.textContent = \"Nous n'avons pas trouvé d'idées très spécifiques pour ces critères. Essayez de varier les informations !\";\n                giftList.appendChild(listItem);\n            }\n\n            toolResult.classList.add('visible');\n            toolResult.scrollIntoView({ behavior: 'smooth', block: 'start' });\n        });\n    </script>\n<div id=\"qa-smoke-result\" hidden></div>\n<script id=\"farmbuilder-affiliate-helper\">\n(function () {\n  window.__UTILITY_AFFILIATE_MAP = window.__UTILITY_AFFILIATE_MAP || {};\n  document.addEventListener(\"click\", function (event) {\n    const target = event.target.closest(\"[data-affiliate-slot]\");\n    if (!target) return;\n    const slot = target.getAttribute(\"data-affiliate-slot\");\n    const href = window.__UTILITY_AFFILIATE_MAP[slot];\n    if (!href) return;\n    if (target.tagName && target.tagName.toLowerCase() === \"a\") {\n      target.setAttribute(\"href\", href);\n      target.removeAttribute(\"rel\");\n      return;\n    }\n    event.preventDefault();\n    window.open(href, \"_blank\");\n  }, true);\n})();\n</script>\n<script id=\"farmbuilder-functional-qa\">\n(function () {\n  function marker() {\n    let node = document.getElementById(\"qa-smoke-result\");\n    if (node) return node;\n    node = document.createElement(\"div\");\n    node.id = \"qa-smoke-result\";\n    node.hidden = true;\n    document.body.appendChild(node);\n    return node;\n  }\n\n  let qaFinished = false;\n  let qaWatchdog = null;\n\n  function normalize(text) {\n    return String(text || \"\").replace(/\\s+/g, \" \").trim();\n  }\n\n  function findForm() {\n    return document.getElementById(\"tool-form\") || document.querySelector(\"form\");\n  }\n\n  function findResult() {\n    return (\n      document.getElementById(\"tool-result\") ||\n      document.querySelector(\"[data-result]\") ||\n      document.querySelector(\".tool-result, .result-card, .result, .results, .output, .preview, .diagnostic, .analysis\")\n    );\n  }\n\n  function primaryAction(form) {\n    if (!form) return null;\n    return (\n      document.getElementById(\"tool-submit\") ||\n      form.querySelector(\"#tool-submit\") ||\n      form.querySelector(\"[data-primary-action]\") ||\n      form.querySelector(\"button[type=submit]\") ||\n      form.querySelector(\"button\") ||\n      form.querySelector(\"input[type=submit]\")\n    );\n  }\n\n  function resultSignature(node) {\n    if (!node) return \"\";\n    const text = normalize(node.textContent);\n    const html = normalize(node.innerHTML).slice(0, 600);\n    return `${text}||${html}`;\n  }\n\n  function resultHeadline(node) {\n    if (!node) return \"\";\n    const heading = node.querySelector(\"h1, h2, h3, strong, b\");\n    return normalize(heading ? heading.textContent : \"\");\n  }\n\n  function sampleText(field) {\n    const key = `${field.id || \"\"} ${field.name || \"\"} ${field.placeholder || \"\"}`.toLowerCase();\n    if (/email/.test(key)) return \"bonjour@example.com\";\n    if (/url|site|website|lien/.test(key)) return \"https://example.com/offre-solaire\";\n    if (/phone|tel|mobile/.test(key)) return \"0612345678\";\n    if (/ville|city|localisation|location|region|departement|postal/.test(key)) return \"Paris\";\n    if (/orientation/.test(key)) return \"sud\";\n    if (/keyword|theme|topic|sujet|subject/.test(key)) return \"energie solaire domestique\";\n    if (/titre|title/.test(key)) return \"Simulateur solaire maison\";\n    if (/nom|name|project/.test(key)) return \"Projet Horizon\";\n    if (/description|notes|content|message/.test(key)) return \"Maison individuelle exposee sud avec toiture exploitable.\";\n    return field.placeholder || \"France\";\n  }\n\n  function sampleNumber(field) {\n    const key = `${field.id || \"\"} ${field.name || \"\"}`.toLowerCase();\n    if (/inclinaison|angle|slope/.test(key)) return \"30\";\n    if (/surface|size|m2|sqm/.test(key)) return \"28\";\n    if (/annee|year/.test(key)) return \"2024\";\n    if (/prix|price|budget|cost|amount|montant/.test(key)) return \"12000\";\n    const min = Number(field.min || \"\");\n    const max = Number(field.max || \"\");\n    if (Number.isFinite(min) && Number.isFinite(max) && max >= min) {\n      return String(Math.min(max, Math.max(min, min + Math.round((max - min) * 0.35))));\n    }\n    if (Number.isFinite(min)) return String(Math.max(min, 12));\n    if (Number.isFinite(max)) return String(Math.min(max, 12));\n    return field.value || \"12\";\n  }\n\n  function applySample(field) {\n    const tag = (field.tagName || \"\").toLowerCase();\n    const type = (field.type || \"\").toLowerCase();\n    if (field.disabled) return;\n    if (type === \"hidden\" || type === \"submit\" || type === \"button\" || type === \"reset\" || type === \"image\" || type === \"file\") {\n      return;\n    }\n    const currentValue = normalize(field.value);\n    if (tag === \"select\") {\n      if (currentValue) return;\n      const option = Array.from(field.options || []).find((item) => item.value && !item.disabled) || field.options[0];\n      if (option) field.value = option.value;\n      return;\n    }\n    if (type === \"checkbox\") {\n      if (field.checked) return;\n      field.checked = true;\n      return;\n    }\n    if (type === \"radio\") {\n      if (field.checked) return;\n      field.checked = true;\n      return;\n    }\n    if (type === \"date\") {\n      if (currentValue) return;\n      field.value = \"2026-03-01\";\n      return;\n    }\n    if (type === \"email\") {\n      if (currentValue) return;\n      field.value = \"bonjour@example.com\";\n      return;\n    }\n    if (type === \"url\") {\n      if (currentValue) return;\n      field.value = \"https://example.com/offre-solaire\";\n      return;\n    }\n    if (type === \"tel\") {\n      if (currentValue) return;\n      field.value = \"0612345678\";\n      return;\n    }\n    if (type === \"color\") {\n      if (currentValue) return;\n      field.value = \"#2f855a\";\n      return;\n    }\n    if (type === \"number\" || type === \"range\") {\n      if (currentValue) return;\n      field.value = sampleNumber(field);\n      return;\n    }\n    if (currentValue) return;\n    field.value = sampleText(field);\n  }\n\n  function stamp(status, detail, headline, primary) {\n    if (qaFinished) return;\n    qaFinished = true;\n    if (qaWatchdog) {\n      window.clearTimeout(qaWatchdog);\n      qaWatchdog = null;\n    }\n    const node = marker();\n    node.dataset.status = status;\n    node.dataset.mode = \"native-form\";\n    node.dataset.detail = detail || \"\";\n    node.dataset.headline = headline || \"\";\n    node.dataset.primary = primary || \"\";\n    node.dataset.viewport = window.innerWidth <= 640 ? \"mobile\" : \"desktop\";\n    window.setTimeout(function () {\n      try {\n        window.stop();\n      } catch (_error) {}\n    }, 0);\n  }\n\n  function installModalGuards() {\n    const noop = function () {};\n    const approve = function () { return true; };\n    const empty = function () { return \"\"; };\n    try { window.alert = noop; } catch (_error) {}\n    try { window.confirm = approve; } catch (_error) {}\n    try { window.prompt = empty; } catch (_error) {}\n  }\n\n  function triggerAction(form, action) {\n    try {\n      if (typeof form.requestSubmit === \"function\") {\n        form.requestSubmit(action || undefined);\n        return;\n      }\n    } catch (_error) {}\n    if (action && typeof action.click === \"function\") {\n      action.click();\n      return;\n    }\n    form.dispatchEvent(new Event(\"submit\", { bubbles: true, cancelable: true }));\n  }\n\n  function inspectResult(before, attemptsLeft) {\n    const result = findResult();\n    if (!result) {\n      stamp(\"fail\", \"La zone de resultat est introuvable.\", \"\");\n      return;\n    }\n    const after = resultSignature(result);\n    const text = normalize(result.textContent);\n    if (after && after !== before && text.length >= 24) {\n      const primary = result.querySelector(\"a[href], button[data-href], [data-primary-url]\") || document.querySelector(\"#tool-result a[href]\");\n      stamp(\"pass\", \"Le formulaire natif a mis a jour la zone de resultat.\", resultHeadline(result), primary ? (primary.getAttribute(\"href\") || primary.getAttribute(\"data-primary-url\") || \"\") : \"\");\n      return;\n    }\n    if (attemptsLeft > 0) {\n      window.setTimeout(function () {\n        inspectResult(before, attemptsLeft - 1);\n      }, 250);\n      return;\n    }\n    stamp(\"fail\", \"La zone de resultat n'a pas renvoye de contenu exploitable.\", resultHeadline(result));\n  }\n\n  function runSmoke() {\n    const params = new URLSearchParams(window.location.search);\n    if (params.get(\"__qa\") !== \"functional\") return;\n    qaWatchdog = window.setTimeout(function () {\n      stamp(\"fail\", \"QA smoke timed out before the page reported a usable result.\", \"\");\n    }, 7000);\n    const form = findForm();\n    if (!form) {\n      stamp(\"fail\", \"Le formulaire principal est introuvable.\", \"\");\n      return;\n    }\n    const result = findResult();\n    const before = resultSignature(result);\n    installModalGuards();\n    try {\n      form.querySelectorAll(\"input, select, textarea\").forEach(applySample);\n    } catch (error) {\n      stamp(\"fail\", error && error.message ? `QA smoke sample failed: ${error.message}` : \"QA smoke sample failed before submit.\", \"\");\n      return;\n    }\n    const action = primaryAction(form);\n    try {\n      triggerAction(form, action);\n    } catch (error) {\n      stamp(\"fail\", error && error.message ? `QA smoke submit failed: ${error.message}` : \"QA smoke submit failed.\", \"\");\n      return;\n    }\n    inspectResult(before, 10);\n  }\n\n  window.addEventListener(\"error\", function (event) {\n    const message = event && event.message ? event.message : \"JavaScript runtime error during QA smoke.\";\n    stamp(\"fail\", `QA smoke JS error: ${message}`, \"\");\n  }, { once: true });\n\n  window.addEventListener(\"unhandledrejection\", function (event) {\n    const reason = event && event.reason;\n    const detail = typeof reason === \"string\"\n      ? reason\n      : reason && reason.message\n        ? reason.message\n        : \"Unhandled promise rejection during QA smoke.\";\n    stamp(\"fail\", `QA smoke rejection: ${detail}`, \"\");\n  }, { once: true });\n\n  if (document.readyState === \"loading\") {\n    document.addEventListener(\"DOMContentLoaded\", function () {\n      window.setTimeout(runSmoke, 60);\n    }, { once: true });\n  } else {\n    window.setTimeout(runSmoke, 60);\n  }\n})();\n</script>\n</body>\n</html>",
+    "generation_mode": "direct_html"
+  }
+}
